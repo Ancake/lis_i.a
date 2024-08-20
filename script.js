@@ -6,14 +6,17 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
     {
-        enunciado: "Assim que saiu da escola você se depara com uma nova tecnologia, um chat que consegue responder todas as dúvidas que uma pessoa pode ter, ele também gera imagens e áudios hiper-realistas. Qual o primeiro pensamento?",
+        enunciado: "voce compraria um UNO véio do moi dos guri, sem porta, sem châo, sem volante, sem vidro, sem pneu, sem porta malas, sem teto, sim, claro ou concerteza?",
+
         alternativas: [
             {
-                texto: "Isso é assustador!",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                texto: "Sim o Unao brabo!",
+                afirmacao: ["No início ficou com medo do que essa tecnologia pode fazer. ",
+                "ta cabuloso esse unao brabo ae mn!!"
+            ]
             },
             {
-                texto: "Isso é maravilhoso!",
+                texto: "Sim o Unao cabuloso!",
                 afirmacao: "Quis saber como usar IA no seu dia a dia."
             }
         ]
@@ -108,6 +111,10 @@ function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
+}
+
+function aleatoria(lista){
+    const posicao = Math.ramdom()*lista.length
 }
 
 mostraPergunta();
