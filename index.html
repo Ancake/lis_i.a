@@ -4,17 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Você decide o futuro da IA</title>
+    <title>Você decide o destino!</title>
 </head>
 <body>
     <div class="caixa-principal">
-        <h1>Lis_I.A</h1>
+        <h1>Você escolhe o destino!</h1>
+        <div class="tela-inicial">
+            <p>Você é um turista em uma cidade desconhecida, suas escolhas podem ajudar
+                ou acabar com a sua vida, está no turno da noite e você está andando pela rua,
+                quando derrepente, as luzes de casas, lojas e postes se apagam. Você continua
+                andando mas desconfiado...
+            </p>
+            <button class="iniciar-btn">Start</button>
+        </div>
         <div class="caixa-perguntas"></div>
         <div class="caixa-alternativas"></div>
         <div class="caixa-resultado">
             <p class="texto-resultado"></p>
+            <button class="novamente-btn">Jogar novamente</button>
         </div>
     </div>
-    <script src="script.js"></script>
+    <script type="module" src="js/aleatorio.js"></script>
+    <script type="module" src="js/perguntas.js"></script>
+    <script type="module" src="js/script.js"></script>
 </body>
 </html>

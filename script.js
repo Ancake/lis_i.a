@@ -21,7 +21,7 @@ const perguntas = [
             },
             {
                 texto: "Sim o Unao cabuloso!",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "Quis saber como usar o fiat uno no seu dia a dia."
             }
         ]
     },
